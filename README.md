@@ -14,18 +14,18 @@ Step 1.Add the JitPack repository to your build file, add it in your root build.
 
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
 	}
+}
 ```
 Step 2. Add the dependency
 
 ```
 dependencies {
-		implementation 'com.github.YangKangLi:XLog:1.0'
-	}
+	implementation 'com.github.YangKangLi:XLog:1.0'
+}
 ```
 Step 3. Initial XLog in onCreate method of Application, like below:
 ```
